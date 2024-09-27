@@ -9,7 +9,7 @@ def compile_attacks(directory, output_file):
                         outfile.write(infile.read() + '\n\n')
 
 if __name__ == "__main__":
-    directory = 'path/to/your/repository'  # Replace with the path to your repository
+    directory = '/home/student/CSC3632_practical1'  # Replace with the path to your repository
     output_file = 'Compile.md'
     compile_attacks(directory, output_file)
     print(f"All attack descriptions have been compiled into {output_file}")
